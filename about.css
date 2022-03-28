@@ -1,0 +1,351 @@
+html {
+  min-height: 100%;
+  min-width: 100%;
+  background-image: url(./images/alexachungfreeimages3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+body {
+  font-family: "Playfair Display", serif;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  margin-top: 0;
+  color: black;
+}
+ul {
+  list-style: none;
+  display: inline-flex;
+  margin-top: 0;
+  color: black;
+}
+.home-button,
+.about-button,
+.project-button,
+.shop-button {
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+}
+a {
+  text-decoration: none;
+  color: black !important;
+}
+a:hover {
+  color: #323232 !important;
+}
+.home-button:hover {
+  color: #323232;
+  transform: scale(1.5);
+  transition: ease-in-out 0.4s;
+}
+.about-button:hover {
+  color: #323232;
+  transform: scale(1.5);
+  transition: ease-in-out 0.4s;
+}
+.project-button:hover {
+  color: #323232;
+  transform: scale(1.5);
+  transition: ease-in-out 0.4s;
+}
+.shop-button:hover {
+  color: #323232;
+  transform: scale(1.5);
+  transition: ease-in-out 0.4s;
+}
+#brand-box {
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+  position: sticky;
+  text-align: center;
+  line-height: 22px;
+  margin: 0 50px 2px 50px;
+  padding: 0 40px 40px 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 5%;
+  box-shadow: 1px 1px 1px;
+}
+#brand-box:hover {
+  box-shadow: 3px 4px 3px;
+  transition: ease-out 0.2s;
+  transform: scale(1.05);
+}
+#brand-insta {
+  text-decoration: underline;
+  color: black;
+}
+#brand-insta:hover {
+  display: flex;
+  justify-content: center;
+  color: #323232;
+  transition: ease-out 0.2s;
+  transform: scale(1.2);
+}
+#human-box {
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+  position: sticky;
+  text-align: center;
+  line-height: 22px;
+  margin: 0 50px 2px 50px;
+  padding: 0 40px 40px 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 5%;
+  box-shadow: 1px 1px 1px;
+}
+#human-box:hover {
+  box-shadow: 3px 4px 3px;
+  transition: ease-out 0.2s;
+  transform: scale(1.05);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#more-info-link {
+  text-decoration: underline;
+  color: black;
+}
+#more-info-link:hover {
+  display: flex;
+  justify-content: center;
+  color: #323232;
+  transition: ease-out 0.2s;
+  transform: scale(1.2);
+}
+@media screen and (max-width: 650px) and (min-width: 280px) {
+  html {
+    min-height: 100%;
+    min-width: 100%;
+    background-image: none;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  body {
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url(./images/alexachungfreeimages3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    max-width: 100%;
+    padding-left: 0;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  li {
+    font-size: 0.6em;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+  }
+  .nav-bar {
+    justify-content: space-evenly;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50%;
+  }
+  #brand-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: justify;
+    line-height: 22px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #human-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: sticky;
+    text-align: justify;
+    line-height: 22px;
+    margin: 0 50px 2px 50px;
+    padding: 0 40px 40px 40px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10%;
+    box-shadow: 1px 1px 1px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 3em;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 650px) {
+  html {
+    min-height: 100%;
+    min-width: 100%;
+    background-image: none;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  body {
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url(./images/alexachungfreeimages3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    max-width: 100%;
+    padding-left: 0;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  li {
+    font-size: 1.2em;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+  }
+  .nav-bar {
+    justify-content: space-evenly;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50%;
+  }
+  #brand-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: justify;
+    line-height: 22px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #human-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: sticky;
+    text-align: justify;
+    line-height: 22px;
+    margin: 0 50px 2px 50px;
+    padding: 0 40px 40px 40px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10%;
+    box-shadow: 1px 1px 1px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 3em;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  html {
+    min-height: 100%;
+    min-width: 100%;
+    background-image: none;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  body {
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url(./images/alexachungfreeimages3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    max-width: 100%;
+    padding-left: 0;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  li {
+    font-size: 2em;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+  }
+  .nav-bar {
+    justify-content: space-evenly;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50%;
+  }
+  #brand-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: justify;
+    line-height: 22px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #human-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: sticky;
+    text-align: justify;
+    line-height: 22px;
+    margin: 0 50px 2px 50px;
+    padding: 0 40px 40px 40px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10%;
+    box-shadow: 1px 1px 1px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 3em;
+  }
+}
+@media screen and (min-width: 2000px) {
+  li {
+    font-size: 2.3em;
+  }
+}

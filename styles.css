@@ -1,0 +1,283 @@
+html {
+  min-height: 100%;
+  min-width: 100%;
+  background-image: url(images/alexachungphoto1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body {
+  font-family: "Playfair Display", serif;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  margin-top: 0;
+  color: black;
+}
+ul {
+  list-style: none;
+  display: inline-flex;
+  margin-top: 0;
+  color: black;
+}
+.home-button,
+.about-button,
+.project-button,
+.shop-button {
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #ffffff;
+}
+.home-button:hover {
+  color: #ffffff;
+  transform: scale(1.5);
+  transition: ease-in-out 0.4s;
+}
+.about-button:hover {
+  color: #ffffff;
+  transform: scale(1.5);
+  transition: ease-in-out 0.4s;
+}
+.project-button:hover {
+  color: #ffffff;
+  transform: scale(1.5);
+  transition: ease-in-out 0.4s;
+}
+.shop-button:hover {
+  color: #ffffff;
+  transform: scale(1.5);
+  transition: ease-in-out 0.4s;
+}
+.main-name-box {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3%;
+  margin-top: 15%;
+}
+.main-name {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: black;
+}
+.main-name-link:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.3s;
+}
+.main-name:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: all ease-in-out 0.3s;
+  margin-right: 5px;
+  padding-right: 1px;
+}
+.icon-box {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 3px;
+  margin-bottom: 1%;
+  position: absolute;
+  bottom: 0;
+}
+.icon-style {
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: 10px;
+}
+.icon-insta:hover {
+  transform: scale(1.5);
+  transition: all ease-in-out 0.3s;
+}
+.icon-tweet:hover {
+  transform: scale(1.5);
+  transition: all ease-in-out 0.3s;
+}
+.icon-yt:hover {
+  transform: scale(1.5);
+  transition: all ease-in-out 0.3s;
+}
+.icon-shop:hover {
+  transform: scale(1.5);
+  transition: all ease-in-out 0.3s;
+}
+@media screen and (max-width: 650px) and (min-width: 280px) {
+  html {
+    min-height: 0;
+    min-width: 100%;
+    background-image: url(images/alexachungphoto1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  body {
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    max-width: 100%;
+    padding-left: 0;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  li {
+    font-size: 0.6em;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+  }
+  .nav-bar {
+    justify-content: space-evenly;
+  }
+  .main-name-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: auto;
+    margin-top: auto;
+  }
+  .main-name,
+  .main-name-link {
+    font-size: 1.1em;
+    justify-content: center;
+    color: white;
+    padding-top: 0;
+  }
+  .icon-box {
+    display: inline-flex;
+    max-width: 100%;
+  }
+  .icon-style {
+    display: inline-flex;
+    max-width: 100%;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 650px) {
+  html {
+    min-height: 0;
+    min-width: 100%;
+    background-image: url(images/alexachungphoto1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  body {
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    max-width: 100%;
+    padding-left: 0;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  li {
+    font-size: 1.3em;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+  }
+  .nav-bar {
+    justify-content: space-evenly;
+  }
+  .main-name-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .main-name,
+  .main-name-link {
+    font-size: 1.4em;
+    justify-content: center;
+    color: white;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .icon-box {
+    display: inline-flex;
+    max-width: 100%;
+  }
+  .icon-style {
+    display: inline-flex;
+    max-width: 100%;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  html {
+    min-height: 0;
+    min-width: 100%;
+    background-image: url(images/alexachungphoto1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  body {
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    max-width: 100%;
+    padding-left: 0;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  li {
+    font-size: 2em;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+  }
+  .nav-bar {
+    justify-content: space-evenly;
+  }
+  .main-name,
+  .main-name-link {
+    color: white;
+  }
+  .icon-box {
+    display: inline-flex;
+    max-width: 100%;
+  }
+  .icon-style {
+    display: inline-flex;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 2000px) {
+  li {
+    font-size: 2em;
+  }
+}
